@@ -56,7 +56,7 @@ public class DepartmentListController implements Initializable{
 		tableColumnName.setCellValueFactory(new PropertyValueFactory<>("name"));
 		
 		Stage stage = (Stage) Main.getMainScene().getWindow();
-	//    tableViewDepartment.prefWidthProperty().bind(stage.widthProperty());
+//	    tableViewDepartment.prefWidthProperty().bind(stage.widthProperty());
 	}
 	
 	public void updateTableView() {
